@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   /*^^CSS reset settings here^^*/
+   
+   #wrapper{
+    width: 1250px;
+    background-color: rgb(156, 30, 26);
+    padding: 30px;
+   }
+   
+   #header{
+   margin: 0px;
+   height: 50px;
+   background-color: rgb(74, 84, 74);
+   margin-bottom: 20px;
+   }
+   
+   #navBar{
+    height: 467px;
+    width: 200px;
+    padding: 1px;
+    background-color: rgb(74, 84, 74);
+    margin-top:0px;
+    display: inline-block;
+    vertical-align: top;
+    /* outline: dashed;
+    outline-color: black; */
+   }
+   
+   #profPic{
+    height: 226px;
+    width: 190x;
+    display: inline-block;
+    /* outline: dashed;
+    outline-color: black; */
+    }
+
+   #main{
+   margin-left:20px;
+   padding: 10px;
+    height: 450px;
+    width: 999px;
+    background-color: rgb(74, 84, 74);
+    display: inline-block;
+    vertical-align: top;
+    /* outline: dashed;
+    outline-color: black; */
+   }
+
+   #subMain{
+    /* outline: dashed;
+    outline-color: black; */
+    display: inline-block;
+    height: 227px;
+    width: 900px;
+    margin-right: 10px;
+    background-color: rgb(202, 178, 79);
+   }
+   
+   .subcontents{
+   margin-top: 12px;
+    height: 210px;
+    width: 280px;
+    margin-right: 10px;
+    vertical-align: top;
+    background-color: rgb(55, 54, 51);
+    display: inline-block;
+   }
+
+   #li1{
+       display: inline-block;
+       margin-left: 25px;
+       color: white;
+   }
+   #li2{
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+
+}
+
+    #aboutHead{
+        /* outline: dashed;
+        outline-color: black; */
+        color: white;
+        vertical-align: top;
+        margin-left: 15px;
+        display: inline-block;
+    }
+
+   #aboutText{
+       /* outline: dashed;
+    outline-color: black; */
+       color: white;
+       margin-top:10px;
+       margin-left: 15px;
+       display: block;
+       vertical-align: top;
+   }
+
+ul {
+    /* outline: dashed; */
+    /* outline-color: black; */
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    width: 200px;
+    display: inline-block;
+    background-color: rgb(202, 178, 79);
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    /* margin-left: 20px; */
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(182, 152, 34);
+    color: rgb(255, 255, 255);
+}
+
+.active {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+}
+
